@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="87fdef00-ccd3-4f8c-86b4-caee2015476b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/app/controllers/CustomerController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/CustomerController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ProductController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/customer/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/customer/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/product/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/product/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/common/route.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="C:\xampp\php\php.exe">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phroute/phroute" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/eftec/bladeone" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2WtDUF8u0uyJw4ApaG1PF7QkSfJ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/xampp/htdocs/base",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="87fdef00-ccd3-4f8c-86b4-caee2015476b" name="Changes" comment="" />
+      <created>1697542996995</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697542996995</updated>
+      <workItem from="1697542997992" duration="5726000" />
+      <workItem from="1697548825935" duration="3000" />
+      <workItem from="1697548881340" duration="3000" />
+      <workItem from="1697548893400" duration="12000" />
+      <workItem from="1697548960531" duration="6170000" />
+      <workItem from="1697562148326" duration="24000" />
+      <workItem from="1697567371217" duration="134000" />
+      <workItem from="1697567622882" duration="1630000" />
+      <workItem from="1697569423960" duration="2592000" />
+      <workItem from="1697598660411" duration="1416000" />
+      <workItem from="1697602535921" duration="7374000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

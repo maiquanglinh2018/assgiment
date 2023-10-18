@@ -46,12 +46,13 @@ class CustomerController extends BaseController {
     public function detailCustomer($id) {
         $customer =  $this->customer->getDetailCustomer($id);
         return $this->render('customer.edit',compact('customer'));
+
     }
     public function updateCustomer($id){
         if(isset($_POST['edit'])){
             $result = $this->customer->updateCustomer($id, $_POST['name'], $_POST['age']);
             if ($result){
-                flash('success', 'Sửa thành công', 'list-product');
+                flash('success', 'Sửa thành công', 'list-customer');
             }
         }
     }

@@ -13,8 +13,8 @@
             <td>{{ $pr->id }}</td>
             <td>{{ $pr->ten_sp }}</td>
             <td>{{ $pr->gia }} </td>
-            <td><a href="{{route('detail-product/'.$value->id )}}"> Sủa </a></td>
-            <td>Xóa</td>
+            <td><a href="{{route('detail-product/'.$pr->id )}}"> Sủa </a></td>
+            <td><a href="{{route('delete-product/'.$pr->id)}}" >Xóa</a></td>
         </tr>
         @endforeach
     </table>

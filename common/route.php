@@ -24,6 +24,7 @@ $router->get('add-product',[\App\Controllers\ProductController::class,'add']);
 $router->post('post-product',[App\Controllers\ProductController::class,'postProduct']);
 $router->get('detail-product/{id}',[\App\Controllers\ProductController::class,'detailProduct']);
 $router->post('update-product/{id}',[\App\Controllers\ProductController::class,'updateProduct'] );
+$router->get('delete-product/{id}',[App\Controllers\CustomerController::class,'deleteProduct']);
 
 
 $router->get('list-customer',[App\Controllers\CustomerController::class,'index']);
@@ -31,6 +32,7 @@ $router->get('add-customer',[\App\Controllers\CustomerController::class,'add']);
 $router->post('post-customer',[App\Controllers\CustomerController::class,'postCustomer']);
 $router->get('detail-customer/{id}',[\App\Controllers\CustomerController::class,'detailCustomer']);
 $router->post('update-customer/{id}',[\App\Controllers\CustomerController::class,'updateCustomer'] );
+$router->get('delete-customer/{id}',[App\Controllers\CustomerController::class,'deleteCustomer']);
 
 
 

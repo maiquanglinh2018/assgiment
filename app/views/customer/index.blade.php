@@ -32,7 +32,7 @@
             <td>{{ $cr->id }}</td>
             <td>{{ $cr->name }}</td>
             <td>{{ $cr->age }} </td>
-            <td> <a href="{{route('detail-customer/'.$value->id) }}" class="btn btn-primary">Sửa</a> </td>
+            <td> <a href="{{route('detail-customer/'.$cr->id) }}">Sửa</a> </td>
             <td>Xóa</td>
         </tr>
         @endforeach

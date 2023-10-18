@@ -55,4 +55,10 @@ class ProductController extends BaseController {
         }
     }
 
+    public function deleteProduct($id)
+    {
+        $this->model->deleteProduct($id);
+        return header("Location:" . BASE_URL . "list-product");
+    }
+
 }

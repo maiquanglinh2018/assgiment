@@ -29,5 +29,11 @@ class Product extends  BaseModel {
         $this->setQuery($sql);
         return $this->execute([$tenSP,$gia,$id]);
     }
-    // xây dựng hàm xóa sản phẩm
+    public function deleteProduct($id){
+        $sql = "DELETE FROM $this->table WHERE id = ?";
+        $this->setQuery($sql);
+        return $this->execute([$id]);
+
+    }
+
 }
