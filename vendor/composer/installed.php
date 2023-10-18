@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'hoangthang/bai5_base',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '5a7be1233d2e24e15733a4b892a98edd495c3c37',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        'eftec/bladeone' => array(
+            'pretty_version' => '4.9',
+            'version' => '4.9.0.0',
+            'reference' => '019036c226086fbe7591360d260067c5d82400ca',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../eftec/bladeone',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'hoangthang/bai5_base' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '5a7be1233d2e24e15733a4b892a98edd495c3c37',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'phroute/phroute' => array(
+            'pretty_version' => 'v2.2.0',
+            'version' => '2.2.0.0',
+            'reference' => 'c1893b885966a0c7b50b9239dd867fda7a312dfa',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phroute/phroute',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
